@@ -683,3 +683,8 @@ register(
     entry_point='gym.envs.unittest:MemorizeDigits',
     reward_threshold=20,
     )
+
+register(
+    id='garage_ROA_RLv0',
+    entry_point='gym.envs.unittest:Garage_Env',
+)
